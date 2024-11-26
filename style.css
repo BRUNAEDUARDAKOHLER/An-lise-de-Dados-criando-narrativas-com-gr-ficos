@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Chilanka&family=Dancing+Script:wght@400..700&family=Kranky&family=Pangolin&display=swap');
 
 :root {
-    --bg-color: #222831;
-    --primary-color: #DDDDDD;
-    --secondary-color: #F05454;
-    --font: "Nunito Sans", sans-serif;
+    --bg-color: #C0D494;
+    --primary-color: #98A785;
+    --secondary-color: #FBF6F6;
 }
 
 body {
@@ -22,8 +21,9 @@ header {
 }
 
 h1 {
+    font-family: "Kranky", serif;
     font-size: 2rem;
-    color: var(--bg-color);
+    color: var(--secondary-color);
     font-weight: 700;
 }
 
@@ -34,8 +34,9 @@ nav {
 }
 
 nav a {
+    font-family: "Amatic SC", sans-serif;
     text-decoration: none;
-    color: var(--bg-color);
+    color: var(--secondary-color);
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
@@ -55,6 +56,7 @@ nav a:hover {
 }
 
 .graficos-container__texto {
+    font-family: "Pangolin", cursive;
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
@@ -62,6 +64,7 @@ nav a:hover {
 }
 
 span {
+    font-family: "Chilanka", cursive;
     font-weight: bold;
     color: var(--secondary-color);
 }
@@ -71,8 +74,9 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
-    color: var(--bg-color);
+    color: var(--secondary-color);
     width: 100%;
     height: 3rem;
     margin-top: 2rem;
+    font-family: "Dancing Script", cursive;
 }
